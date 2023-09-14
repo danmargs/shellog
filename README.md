@@ -11,6 +11,6 @@ pip install shellog
 import shellog
 
 b = shellog.Bot()
-b.setChatId(<string id from bot @shellogbot whit command /id>)
+b.setChatId(<string id from bot @shellogbot with command /id>)
 b.sendMessage("i'm here!")
 ```
