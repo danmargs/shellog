@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='shellog',
-    version='1.0.0',    
+    version='1.0.2',    
     description='A Python package to get notifications about the logs of a process',
     url='https://github.com/danmargs/shellog',
     author='Daniele Margiotta',
@@ -21,4 +21,6 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
     ],
+    long_description_content_type="text/markdown",
+
 )
