@@ -1,4 +1,4 @@
-Shellog
+Shellog 1.0.2
 =============================
 Have you ever needed to monitoring of your background processes when you didn't have the ability to access the pc or vpn?
 
