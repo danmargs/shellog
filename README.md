@@ -30,9 +30,9 @@ Use Case
         1. b = shellog.Bot()
     *   Set the ChatId or the ChatIds
         1. b.addChatId(*ChatId*)
-        1. b.addListChatIds([*ChatId_1*, *ChatId_2*, ...])
+        2. b.addListChatIds([*ChatId_1*, *ChatId_2*, ...])
     *   Remove the ChatId or the ChatIds
         1. b.removeChatId(*ChatId*)
-        1. b.removeListChatIds([*ChatId_1*, *ChatId_2*, ...])
+        2. b.removeListChatIds([*ChatId_1*, *ChatId_2*, ...])
     *   Send log message 
         1. b.sendMessage(*"Hey! I'm here!"*)
