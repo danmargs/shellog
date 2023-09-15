@@ -16,7 +16,7 @@ Requirements
         1. https://t.me/shellogbot
         
     *   Set the ChatId
-        1. type */id* into the chat
+        1. type /id into the chat
         2. pin the *ChatId* returned
 
 Installation
@@ -32,13 +32,13 @@ Use Case
     *   Instantiate bot
         1. b = shellog.Bot()
         
-    *   Set the ChatId or the ChatIds
-        1. b.addChatId(*ChatId*)
-        2. b.addListChatIds([*ChatId_1*, *ChatId_2*, ...])
+    *   Set the ChatId or the ChatIds (notice that a ChatId is a string type)
+        1. b.addChatId("ChatId")
+        2. b.addListChatIds(["ChatId_1", "ChatId_2", ...])
         
-    *   Remove the ChatId or the ChatIds
-        1. b.removeChatId(*ChatId*)
-        2. b.removeListChatIds([*ChatId_1*, *ChatId_2*, ...])
+    *   Remove the ChatId or the ChatIds (notice that a ChatId is a string type)
+        1. b.removeChatId("ChatId")
+        2. b.removeListChatIds(["ChatId_1", "ChatId_2", ...])
         
     *   Send log message 
         1. b.sendMessage(*"Hey! I'm here!"*)
