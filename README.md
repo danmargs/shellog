@@ -1,11 +1,10 @@
 Shellog 1.0.2
 =============================
-Have you ever needed to monitoring of your background processes when you didn't have the ability to access the pc or vpn?
+Have you ever needed to monitor your background processes when you couldn't access your PC or VPN?
 
-**Shellog** gives you the ability to be able to insert logs within your Python code that will notify you directly on a **Telegram chat**.
-Also if you are a Team it will provide you with the ability to be able to share logs.
+Shellog empowers you to seamlessly integrate logs into your Python code, delivering direct notifications to your Telegram chat. Additionally, for teams, it facilitates log sharing.
 
-The goal of the library **Shellog** is to allow monitoring of processes with simplicity, let's see how it will be possible to do this.
+The primary aim of the Shellog library is to streamline process monitoring, and we'll explore how it accomplishes this with ease.
 
 Requirements
 =============================
